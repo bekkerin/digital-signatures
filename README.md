@@ -1,4 +1,4 @@
-# digital-signatures
+# Digital Signatures
 ## Creating digital signatures with Google Script attached to documents
 
 Google Script is a JavaScript-like language built into all Gmail accounts, including all educational Gmail accounts. Script projects have one or more script files which can either be code files or HTML files. Pure JavaScript and CSS can be included in the HTML files. Scripts can be used as a stand-alone scripts or attached to Google files like Google Docs, Google Sheets, and Google Slides.
