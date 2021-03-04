@@ -40,3 +40,7 @@ function signDigitally()
   sheet.getRange(lastRow+1,3).setValue(digest); //(#5)
 }
 ```
+
+Task List
+- [ ] create user instructions
+- [ ] create demonstration video
