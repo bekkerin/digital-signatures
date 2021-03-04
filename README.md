@@ -12,7 +12,7 @@ Digital signatures require:
 
 The following code replaces a signature placeholder in a document with an encoded email address plus date signed, and records the email / date / encoding in a signature spreadsheet.
 
-```
+
 function signDigitally()
 {
     var userName = Session.getActiveUser().getEmail(); // getUserLoginID is deprecated
@@ -37,4 +37,4 @@ function signDigitally()
   sheet.getRange(lastRow+1,2).setValue(now);
   sheet.getRange(lastRow+1,3).setValue(digest); //(#5)
 }
-```
+
