@@ -5,9 +5,9 @@ Google Script is a JavaScript-like language built into all Gmail accounts, inclu
 Since the scripts can only be used when logged in to a Gmail account, the Gmail account uses the Gmail address as identity, and passwords are needed to access the accounts, the Gmail address can serve for digital signatures. 
 Digital signatures require: 
 1. Intent to sign and opt-out clause 
-1. Consent to do business electronically
-1. Clear signature attribution
-1. Association of signature with the record
+2. Consent to do business electronically
+4. Clear signature attribution
+5. Association of signature with the record
 1. Record retention
 
 The following code replaces a signature placeholder in a document with an encoded email address plus date signed, and records the email / date / encoding in a signature spreadsheet.
